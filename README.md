@@ -5,3 +5,6 @@ all special symbols in <code>|..|</code> so that Lisp reader can recognize them 
 
 Then the result is wrapped in <code>(..)</code> so that the Lisp reader can read the whole thing in one fell swoop as data.
 
+Reads from a file/standard input and writes to standard output.
+
+
