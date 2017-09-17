@@ -1,3 +1,8 @@
-( |~|  |`|  |!|  |@|  |#|  |$|  |%|  |^|  |&|  |*|  |(|  |)|  |_|  |-|  |+|  |=|   |\|| |\\| |}|  |]|  |{|  |[|  |"|  |'|  |:|  |;|  |?|  |/| |>|  |.|  |<|  |,|  these are all the special symbols |,|  total of 32
+( |~|  |`|  |!|  |@|  |#|  |$|  |%|  |^|  |&|  |*|  |(|  |)|  |_|  |-|  |+|  |=|   |\|| |\|  |}|  |]|  |{|  |[|  |"|  |'|  |:|  |;|  |?|  |/|  |>|  |.|  |<|  |,|  
+these are all the special symbols |,|  total of 32
   |\|| this is not lisp |'| s  |\||
-Now they are data)
+Now they are data
+Symbols such as  |/| are separated too although lisp reader takes them as ordinary |.|  NB |.|  space in the output after  |/|  |.| 
+Same goes for  |\| separation |.| 
+ |/| 5  |\| 5 b |+| c
+)
